@@ -1,0 +1,671 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap");
+
+body {
+  /* padding: 51px 50px 0px 50px; */
+  max-width: 1440px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+/* =========================== START NAVBAR AREA ==================== */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.logo {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+  color: #333333;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top {
+  padding: 0px 30px;
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+/* =========================== END NAVBAR AREA ==================== */
+
+/* =========================== START MAIN AREA ==================== */
+
+/* ===========================  HEADER AREA ==================== */
+
+header {
+  width: 550px;
+  margin: 100px 0px 42px 277px;
+  padding: auto;
+}
+
+.head-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2d9cdb;
+}
+
+.head-h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+/* ===========================  HOME SECTION AREA ==================== */
+
+.home {
+  text-align: center;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.home-img{
+  width: 90%;
+}
+
+
+.home-pic {
+  border-radius: 18px; 
+  width: 90%;
+}
+
+.home-content {
+  width: 400px;
+  margin: 50px 0px 42px 277px;
+  padding: auto;
+}
+
+.home-h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+.home-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4f4f4f;
+}
+
+.content-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+  margin-top: 80px;
+}
+
+.home-in {
+  background: #f2f2f2;
+  border-radius: 12px;
+  width: 350px;
+  height: 57px;
+  padding-left: 20px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #bdbdbd;
+}
+
+.home-btn {
+  position: absolute;
+  background: #2d9cdb;
+  border-radius: 12px;
+  width: 94px;
+  height: 49px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f2f2f2;
+  border: none;
+  margin-left: -100px;
+  margin-top: 5px;
+}
+
+/* ===========================  SERVICES SECTION AREA ==================== */
+
+.services {
+  padding: 100px 0px 0px 150px;
+}
+
+.services-h2 {
+  font-family: "Poppins";
+  width: 346px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  padding-top: 20px;
+}
+
+.services-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 273px;
+  color: #4f4f4f;
+  padding-top: 20px;
+
+}
+
+.services-item {
+  padding: 46px 5px 55px 34px;
+  width: 341px;
+  height: 422px;
+}
+
+.services-item:hover {
+  background: #f3f2f2;
+  box-shadow: 0px 10px 30px rgba(22, 22, 22, 0.1);
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+#edit {
+  padding: 5px;
+  font-size: 48px;
+  border-radius: 16px;
+  background: #2d9cdb;
+  color: #ffffff;
+}
+
+#code {
+  padding: 5px;
+  font-size: 48px;
+  border-radius: 16px;
+  background: #27ae60;
+  color: #ffffff;
+}
+
+#list {
+  padding: 5px;
+  font-size: 48px;
+  border-radius: 16px;
+  background: #eb5757;
+  color: #ffffff;
+}
+
+.services-btn {
+  background: #e0e0e0;
+  border-radius: 12px;
+  width: 116px;
+  height: 42px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  margin-top: 30px;
+}
+
+.services-btn:hover {
+  background: #2d9cdb;
+  color: #ffffff;
+  
+}
+
+/* ===========================  WORK SECTION AREA ==================== */
+
+.work {
+  padding: 100px 0px 0px 150px;
+}
+
+.work-h2 {
+  font-family: "Poppins";
+  width: 448px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+}
+
+.work-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.work-h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.btn-div > span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2d9cdb;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: -68px;
+}
+
+.work-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2d9cdb;
+  border: none;
+  background-color: #ffffff;
+  margin-top: -100px;
+}
+
+.work-contant {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+}
+
+.work-item {
+  padding: 165px 10px 0px 0px;
+}
+
+.work-img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+/* =========================== TEAM SECTION AREA ==================== */
+
+.team {
+  padding: 100px 0px 0px 150px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.team-h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #eb5757;
+}
+
+.team-h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+}
+
+.team-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+.team-row {
+  width: 500px;
+  margin-top: 160px;
+}
+
+.team-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.person {
+  padding-top: 150px;
+  padding-left: 30Px;
+}
+
+.team-pic {
+  border-radius: 30px;
+  padding: 10px;
+}
+
+/* =========================== CLIENT SECTION AREA ==================== */
+
+.client {
+  padding: 100px 0px 0px 150px;
+  
+}
+
+.client-h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  width: 90%;
+}
+
+.client-contant {
+  display: flex;
+  flex-direction: row;
+}
+
+.client-img {
+  border-radius: 12px;
+  width: 82px;
+  height: 82px;
+  margin-top: 20px;
+}
+
+.client-info {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.info-h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.info-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #828282;
+  margin-top: -10px;
+}
+
+/* =========================== END MAIN AREA ==================== */
+
+/* =========================== START FOOTER AREA ==================== */
+
+.foot-main {
+  padding: 100px 40px 0px 150px;
+  background: #100e1d;
+  color: #ffffff;
+  margin-top: 200px;
+  
+}
+
+.footer-contant {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-ul {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  list-style: none;
+}
+
+.social {
+  margin-top: -15px;
+}
+
+.social-img {
+  padding-right: 5px;
+  padding-top: 15px;
+}
+
+.footer-input {
+  background: #f2f2f2;
+  border-radius: 12px;
+  width: 350px;
+  height: 57px;
+  padding-left: 20px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #bdbdbd;
+}
+
+
+.footer-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer-h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+}
+
+.footer-btn {
+  position: absolute;
+  background: #2d9cdb;
+  border-radius: 12px;
+  width: 94px;
+  height: 49px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f2f2f2;
+  border: none;
+  margin-left: -100px;
+  margin-top: 5px;
+}
+
+.foot {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.foot p, .foot a {
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 17px;
+  font-weight: bold;
+  font-size: large;
+  color: #f2f2f2;
+}
+
+/* =========================== END FOOTER AREA ==================== */
+
+/* =========================== START MEDIA QUERRY ==================== */
+
+/* =========================== 1200px MEDIA QUERRY ==================== */
+
+@media only screen and (max-width: 1200px) {
+
+  body{
+    min-width: fit-content;
+  }
+
+  header,
+  .home-content {
+    margin: 100px 00px 42px 200px;
+    
+  }
+
+  .services,
+  .work,
+  .client {
+    padding: 100px 0px 0px 100px;
+  }
+  
+  .services-item {
+    padding-left: 0px;
+    width: 40%;
+  }
+
+  .team {
+    padding-left: 80px;
+  }
+
+}
+
+/* =========================== 900px MEDIA QUERRY ==================== */
+
+@media screen and (max-width: 900px) {
+
+
+  .team {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-row {
+    width: 300px;
+  }
+
+}
+
+/* =========================== 800px MEDIA QUERRY ==================== */
+
+@media screen and (max-width: 800px) {
+
+  body{
+    min-width: fit-content;
+  }
+
+  header, .home-content{
+    margin-left: 50px;
+  }
+
+  .services-content,
+  .work-contant,
+  .footer-contant {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-contant {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-para, .home-para, .info-para, .work-para, .services-para, .head-para, .footer-para{
+    font-weight: 900px;
+  }
+
+  .btn-div{
+    float: left;
+    margin-top: 100px;
+  }
+
+  .work-para{
+    margin-top: 20px;
+  }
+
+  .work-item1, .work-item{
+    padding: 50px 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .team-row{
+    margin-top: 20px;
+  }
+
+  .services-content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .services-item{
+    width: 90%;
+    padding: 50px 15px 2px 20px;
+  }
+
+
+  .persons{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .social{
+    padding: 10px;
+  }
+
+  .footer-about, .footer-info{
+    padding-top: 50px;
+  }
+ 
+}
+/* =========================== END MEDIA QUERRY ==================== */
