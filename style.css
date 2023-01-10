@@ -9,21 +9,23 @@ body {
 
 /* =========================== START NAVBAR AREA ==================== */
 
-nav {
+/* .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 90%;
-}
+  position: fixed;
+} */
 
-.logo {
+.logo a{
   font-family: "Heebo";
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
   line-height: 53px;
   color: #333333;
+  text-decoration: none;
 }
 
 .bar {
@@ -32,7 +34,7 @@ nav {
   align-items: center;
 }
 
-.top {
+.top a{
   padding: 0px 30px;
   list-style: none;
   font-family: "Poppins";
@@ -41,6 +43,7 @@ nav {
   font-size: 24px;
   line-height: 36px;
   color: #333333;
+  text-decoration: none;
 }
 /* =========================== END NAVBAR AREA ==================== */
 
@@ -461,12 +464,17 @@ header {
   justify-content: space-between;
 }
 
-.footer-ul {
+.footer-li a{
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 200%;
+  text-decoration: none;  
+  color: #ffffff;
+}
+
+.footer-li{
   list-style: none;
 }
 
